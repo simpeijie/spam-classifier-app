@@ -28,7 +28,7 @@ def compute(x, y, n, d):
 
 	return x, y, beta, mu
 
-def train_gd(X_train, y_train, alpha, reg, num_iter=10000):
+def train_gd(X_train, y_train, alpha, reg, num_iter=8000):
 	n, d = X_train.shape
 	x, y, beta, mu = compute(X_train, y_train, n, d)
 	loss = []
