@@ -5,28 +5,32 @@
 	text-align: center;
 }
 
+.classify {
+	background-color: rgb(46, 134, 193);
+}
+
 .output {
 	font-size: 15px;
 }
 
 #spam {
 	text-align: center;
-	border-color: rgb(255, 231, 231);
+	border-color: rgb(241, 148, 138);
 	color:  #696969;
 	border-radius: 25px;
 	border-style: solid;
 	padding: 10px;
-	background-color: rgba(255, 0, 0, 0.3);
+	background-color: rgb(241, 148, 138);
 	font-size: 20pt;
 }
 
 #ham {
 	text-align: center;
-	border-color: rgb(255, 231, 231);
+	border-color: rgb(163, 228, 215);
 	color:  #696969;
 	border-radius: 25px;
 	border-style: solid;
 	padding: 10px;
-	background-color: rgba(255, 0, 0, 0.3);
+	background-color: rgb(163, 228, 215);
 	font-size: 20pt;
 }
